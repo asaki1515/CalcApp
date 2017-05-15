@@ -1,0 +1,83 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="8dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp"
+    tools:context="jp.techacademy.minegishi.asaki.calcapp.MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:text="+"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView2"
+        android:id="@+id/button1"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:text="-"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button1"
+        android:id="@+id/button2"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:text="×"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button2"
+        android:id="@+id/button3"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:text="÷"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button3"
+        android:id="@+id/button4"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10pt"
+        android:text="計算する数値を入力"
+        android:textColor="#000000"
+        android:layout_centerHorizontal="true"
+        android:textSize="15pt"
+        android:id="@+id/textView1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20pt"
+        android:text="四則演算を選択"
+        android:textColor="#000000"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/editText2"
+        android:textSize="15pt"
+        android:id="@+id/textView2"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView1"
+        android:id="@+id/editText1"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/editText1"
+        android:id="@+id/editText2"/>
+
+</RelativeLayout>
